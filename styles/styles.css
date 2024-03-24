@@ -3,7 +3,9 @@
   src: url('./Norse-Bold.otf') format('opentype');
 }
 
-
+body {
+  font: 'Robuto', 'Arial', 'Helvetica', sans-serif;
+}
 
 .background-image-div {
   background-image: url('../images/nova-city.png'); /* Replace 'background.jpg' with the path to your image */
@@ -18,8 +20,11 @@
 .right-side-div {
   background-color: rgba(253, 240, 220, 0.9);
   flex: 2;
-  box-shadow: 0 0 25px 0 rgba(255, 240, 220, 1)
-
+  box-shadow: 0 0 25px 0 rgba(255, 240, 220, 1);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .left-side-div {
@@ -49,4 +54,33 @@
   width: 1em;
   height: 1.5em;
 
+}
+
+.right-side-div-header {
+  font-size: 1.75em;
+  color: black;
+}
+
+.form-left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side-div-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#sign-up-form{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
