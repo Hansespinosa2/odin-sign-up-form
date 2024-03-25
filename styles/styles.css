@@ -4,7 +4,7 @@
 }
 
 body {
-  font: 'Robuto', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
 
 .background-image-div {
@@ -59,6 +59,7 @@ body {
 .right-side-div-header {
   font-size: 1.75em;
   color: black;
+  text-align: right;
 }
 
 .form-left-side {
@@ -75,12 +76,46 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+
 
 }
 
 #sign-up-form{
   display: flex;
   justify-content: space-around;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   padding-top: 50px;
+}
+
+input {
+  font-size: 1.5em;
+  gap: 10px;
+}
+
+.input label {
+  display: flex;
+  align-items: center; /* Align the items (image and input) vertically in the center */
+  gap: 5px; /* Adds space between the image and the input */
+}
+
+
+
+.right-side-div-form-title {
+  font-size: 2em;
+}
+
+.form-left-side, .form-right-side {
+  gap: 20px;
+  padding: 0px 0px 20px 20px;
+}
+
+button {
+  font-size: 2em;
+  padding: 20px;
+  border-radius: 20px;
+
 }

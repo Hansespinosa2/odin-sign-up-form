@@ -25,51 +25,64 @@
       <div class="right-side-div-outer-form">
         <div class="right-side-div-header">
           This is a fake service and not hooked up to anything. <br> I wouldn't recommend putting any personal information in there but if you want to, <br>
-          go crazy.
+          go crazy. <br> <br>
+          
         </div>
         <div class="right-side-div-form">
-          <form action="" id="sign-up-form">
+          <div class="right-side-div-form-title">
+            Fill out our form!
+          </div>
+          <form action="" id="sign-up-form"> 
 
             <div class="form-left-side">
-              <div class="first-name">
-                <label for="first-name">First Name
-                  <input type="text" id="first-name" name="first-name">
+              <div class="input first-name">
+                
+                <label for="first-name">
+                  <img src="./images/person-logo.png" alt="Small graphic of a person's sillhouette" width="30px">
+                  <input type="text" id="first-name" name="first-name" placeholder="First Name">
                 </label>
               </div>
-              <div class="email">
-                <label for="email">Email
-                  <input type="email" id="email" name="email">
+              <div class="input email">
+                <label for="email">
+                  <img src="./images/mail-logo.png" alt="Small logo of an a mail symbol" width="30px">
+                  <input type="email" id="email" name="email" placeholder="Email">
                 </label>
               </div>
-              <div class="password">
-                <label for="password">Password
-                  <input type="password" id="password" name="password">
+              <div class="input password">
+                <label for="password">
+                  <img src="./images/password-logo.png" alt="An image of a small lock for password symbol." width="30px">
+                  <input type="password" id="password" name="password" placeholder="Password">
                 </label>
               </div>
             </div>
             
-            <div class="form-right-side">
+            <div class="input form-right-side">
               <div class="last-name">
-                <label for="last-name">Last Name
-                  <input type="text" id="last-name" name="last-name">
+                <label for="last-name">
+                  <img src="./images/person-logo.png" alt="Small graphic of a person's sillhouette" width="30px">
+                  <input type="text" id="last-name" name="last-name" placeholder="Last Name">
                 </label>
               </div>
-              <div class="phone">
-                <label for="phone">Phone Number
-                  <input type="tel" id="phone" name="phone">
+              <div class="input phone">
+                <label for="phone">
+                  <img src="./images/phone-logo.png" alt="An image of a cellphone" width="30px">
+                  <input type="tel" id="phone" name="phone" placeholder="Phone Number">
                 </label>
               </div>
-              <div class="confirm-password">
-                <label for="confirm-password">Confirm Password
-                  <input type="password" id="confirm-password" name="confirm-password">
+              <div class="input confirm-password">
+                <label for="confirm-password">
+                  <img src="./images/password-logo.png" alt="An image of a small lock for password symbol." width="30px">
+                  <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
                 </label>
               </div>
+              
             </div>
-
+           
           </form>
+          <button form="sign-up-form" type="submit">Submit</button>
         </div>
         <div class="right-side-div-footer">
-          <button form="sign-up-form" type="submit">Submit</button>
+         
           <p class="account">Already have an account? <a href="">Log in</a></p>
         </div>
 
